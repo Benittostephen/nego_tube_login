@@ -116,7 +116,7 @@ class LoginScreen extends StatelessWidget {
                   const SizedBox(height: 40.0),
                   myButton(
                       text: 'Continue with google',
-                      icon: 'assets/icons/google.webp'),
+                      icon: 'packages/tube_login/assets/icons/google.webp'),
                   // const SizedBox(height: 10.0),
                   // myButton('Continue With Facebook', 'assets/icons/facebook.png'),
                   const SizedBox(height: 10.0),
