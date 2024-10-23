@@ -33,8 +33,8 @@ class OtpVerificationScreen extends StatelessWidget {
   void _verifyOTP(BuildContext context) {
     final otp = _otpController.text;
     if (otp.length == 6) {
-      Navigator.pushReplacement(
-          context, MaterialPageRoute(builder: (context) => LoginScreen()));
+      // Navigator.pushReplacement(
+      //     context, MaterialPageRoute(builder: (context) => LoginScreen()));
       print("Entered OTP: $otp");
       ScaffoldMessenger.of(context)
           .showSnackBar(const SnackBar(content: Text('OTP Verified')));
